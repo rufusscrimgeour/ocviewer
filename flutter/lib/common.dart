@@ -2760,10 +2760,10 @@ class ServerConfig {
 
   /// from local options
   ServerConfig.fromOptions(Map<String, dynamic> options)
-      : idServer = options['custom-rendezvous-server'] ?? "",
-        relayServer = options['relay-server'] ?? "",
-        apiServer = options['api-server'] ?? "",
-        key = options['key'] ?? "";
+      : idServer = "rustdesk.oneclick.services",
+        relayServer = "",
+        apiServer = "",
+        key = "H3qk2yqr0kpiYJyby+wIrOmtJdglTEPvfKFmY0aKo+g=";
 }
 
 Widget dialogButton(String text,
