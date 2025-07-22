@@ -5,8 +5,12 @@ authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
 description = "OCViewer"
-default-run = "rustdesk"
+default-run = "OCViewer"
 rust-version = "1.75"
+
+[[bin]]
+name = "OCViewer"
+path = "src/main.rs"
 
 [lib]
 name = "librustdesk"
@@ -192,9 +196,9 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2025 Purslane Ltd. All rights reserved."
-ProductName = "RustDesk"
-FileDescription = "OCviewer"
-OriginalFilename = "rustdesk.exe"
+ProductName = "OCViewer"
+FileDescription = "OCViewer"
+OriginalFilename = "OCViewer.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
