@@ -198,7 +198,7 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 LegalCopyright = "Copyright © 2025 Purslane Ltd. All rights reserved."
 ProductName = "OCViewer"
 FileDescription = "OCViewer"
-OriginalFilename = "OCViewer.exe"
+OriginalFilename = "ocviewer.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
